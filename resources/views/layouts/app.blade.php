@@ -15,6 +15,8 @@
 
         <!-- Styles -->
         @livewireStyles
+
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
