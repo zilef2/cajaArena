@@ -17,6 +17,11 @@
         @livewireStyles
 
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+
+         <!-- Styles powergrid -->
+        @livewireStyles
+        @powerGridStyles
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
@@ -42,5 +47,9 @@
         @stack('modals')
 
         @livewireScripts
+
+        <!-- Scripts -->
+        @livewireScripts
+        @powerGridScripts
     </body>
 </html>
