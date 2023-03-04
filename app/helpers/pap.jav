@@ -29,3 +29,4 @@ php artisan make:middleware IsAdmin
     php artisan make:livewire forms.components.select
         php artisan make:controller usersForSelect
 
+    php artisan make:livewire forms.newProduct
